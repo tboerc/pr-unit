@@ -1,4 +1,4 @@
-# Rem
+# React Native Rem
 It's a very simple package that helps a lot to make the application responsive. To use, simple multiply all project sizes with the "rem".
 
 ## Basic usage
