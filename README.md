@@ -3,7 +3,7 @@ It's a very simple package that helps a lot to make the application responsive. 
 
 ## Basic usage
 ```javascript
-import { Stylesheet } from 'react-native;
+import { Stylesheet } from 'react-native';
 import rem from 'rem';
 
 const style = Stylesheet.create({
@@ -12,4 +12,6 @@ const style = Stylesheet.create({
     height: 100 * rem,
   }
 });
+
+export default style;
 ```
