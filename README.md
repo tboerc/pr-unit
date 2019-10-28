@@ -4,7 +4,7 @@ It's a very simple package that helps a lot to make the application responsive. 
 ## Basic usage
 ```javascript
 import { Stylesheet } from 'react-native';
-import rem from 'rem';
+import rem from 'react-native-rem';
 
 const style = Stylesheet.create({
   container: {
