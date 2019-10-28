@@ -1,0 +1,22 @@
+{
+  "name": "react-native-rem",
+  "version": "1.0.1",
+  "description": "The path to responsive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tboerc/rem.git"
+  },
+  "keywords": [
+    "responsive"
+  ],
+  "author": "tboerc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tboerc/rem/issues"
+  },
+  "homepage": "https://github.com/tboerc/rem#readme"
+}
