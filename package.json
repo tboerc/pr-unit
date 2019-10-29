@@ -11,9 +11,9 @@
     "url": "git+https://github.com/tboerc/pr-unit.git"
   },
   "keywords": [
-    "react-native"
-    "responsive", 
-    "unit",
+    "react-native",
+    "responsive",
+    "unit"
   ],
   "author": "tboerc",
   "license": "ISC",
