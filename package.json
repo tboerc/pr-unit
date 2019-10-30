@@ -1,6 +1,6 @@
 {
   "name": "pr-unit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The Path to Responsiveness",
   "main": "index.js",
   "scripts": {
