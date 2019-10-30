@@ -3,10 +3,10 @@ It's a very simple package that helps a lot to make the application responsive. 
 
 ## Basic usage
 ```javascript
-import { Stylesheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 import pr from 'pr-unit';
 
-const style = Stylesheet.create({
+const style = StyleSheet.create({
   container: {
     width: 100 * pr,
     height: 100 * pr,
