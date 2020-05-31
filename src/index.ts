@@ -28,7 +28,7 @@ class StyleSheet {
   static create<T extends NamedStyles<T> | NamedStyles<any>>(style: T | NamedStyles<T>, config: Config = _config) {
     Object.entries(style).forEach(([key, value]) => {
       Object.entries(value).forEach(([subKey, subValue]) => {
-        if (typeof value === 'number' && checkBlackList(config.blacklist, subKey))
+        if (typeof subValue === 'number' && checkBlackList(config.blacklist, subKey))
           style[key][subKey] = subValue * config.unit;
         else style[key][subKey] = subValue;
       });
