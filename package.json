@@ -1,6 +1,6 @@
 {
   "name": "pr-unit",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "The Path to Responsiveness",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
