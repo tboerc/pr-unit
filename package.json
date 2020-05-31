@@ -2,9 +2,14 @@
   "name": "pr-unit",
   "version": "1.0.4",
   "description": "The Path to Responsiveness",
-  "main": "index.js",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run format",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -16,9 +21,20 @@
     "unit"
   ],
   "author": "tboerc",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tboerc/pr-unit/issues"
   },
-  "homepage": "https://github.com/tboerc/pr-unit#readme"
+  "homepage": "https://github.com/tboerc/pr-unit#readme",
+  "devDependencies": {
+    "@types/react-native": "^0.62.12",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "react-native": "^0.62.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
