@@ -14,9 +14,15 @@ const style = StyleSheet.create({
 
 export default style;
 ```
-It will blacklist some values (flex, elevation, zIndex...) so you can simply change from the react-native to pr-unit, and just adjust some values.
-
-
+It will blacklist some values (flex, elevation, zIndex...) so you can simply change from the react-native to pr-unit, and just adjust some values. If you want to leave some value normal, just add a "_" before the value, like: 
+```
+const style = StyleSheet.create({
+  container: {
+    width: 100,
+    height: `_${100}`,
+  }
+});
+```
 The other is getting the "pr" value, and multiply the value that you want to be responsive, like:
 ```javascript
 import {StyleSheet} from 'react-native';
