@@ -30,6 +30,8 @@ class StyleSheet {
       Object.entries(value).forEach(([subKey, subValue]) => {
         if (typeof subValue === 'number' && checkBlackList(config.blacklist, subKey))
           style[key][subKey] = subValue * config.unit;
+        else if (typeof subValue === 'string' && subValue.startsWith('_'))
+          style[key][subKey] = parseFloat(subValue.replace('_', ''));
         else style[key][subKey] = subValue;
       });
     });
