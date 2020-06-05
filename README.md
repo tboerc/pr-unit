@@ -15,7 +15,7 @@ const style = StyleSheet.create({
 export default style;
 ```
 It will blacklist some values (flex, elevation, zIndex...) so you can simply change from the react-native to pr-unit, and just adjust some values. If you want to leave some value normal, just add a "_" before the value, like: 
-```
+```javascript
 const style = StyleSheet.create({
   container: {
     width: 100,
