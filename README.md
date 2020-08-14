@@ -23,7 +23,7 @@ const style = StyleSheet.create({
   }
 });
 ```
-The other is getting the "pr" value, and multiply the value that you want to be responsive, like:
+The other way is getting the "pr" value, and multiply the value that you want to be responsive, like:
 ```javascript
 import {StyleSheet} from 'react-native';
 import pr from 'pr-unit';
